@@ -1,0 +1,221 @@
+body{
+    padding:0;
+    margin: 0;
+    background-color: #9ed2ec;
+}
+.mycanvas{
+
+    height: 510px;
+    width:350px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -345px;
+    margin: auto;
+
+
+
+}
+.snowman{
+    
+    position: relative;
+    left: 5px;
+    top: 53px;
+}
+.face{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 110px;
+}
+.eyel,.eyer{
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+.eyel{
+    top: 40px;
+    left: 35px;
+}
+.eyer{
+    top: 25px;
+    left: 75px;
+}
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 30px solid #f7880f;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: relative;
+    top: 35px;
+    left: 57px;
+
+}
+.hat{
+    background-color: #2b303a;
+    height: 10px;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+    border-radius: 4px;
+    transform: rotate(20deg);
+}
+.htop{
+    height: 0;
+    width: 60px;
+    border-bottom: 43px solid #2b303a;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    bottom: 42;
+    left: 20px;
+}
+.body{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    top: 45px;
+    right: 35px;
+}
+.b1,.b2,.b3{
+    background-color: #2b303a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.buttons{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+.hand-1{
+    background-color: #84382a;
+    height: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 68px;
+    transform: rotate(25deg);
+    right: 67px;
+}
+.s1{
+    background-color:#84382a ;
+    height: 5px;
+    width: 30px;
+    position: relative;
+    bottom: 10px;
+    transform: rotate(45deg);
+    left: 5px;
+
+}
+.hand-2{
+    background-color: #84382a;
+    height: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 68px;
+    transform: rotate(-25deg);
+    left: 168px;
+
+}
+.s2{
+background-color:#84382a ;
+height: 5px;
+width: 30px;
+position: relative;
+transform: rotate(-45deg);
+bottom: 10px;
+left: 65px;
+
+
+}
+.scarf{
+    height: 0;
+    width: 20px;
+    border-bottom: 50px solid #e63c33;
+    border-left:8px solid transparent;
+    border-right: 8px solid transparent;
+    position: relative;
+    bottom: 147px;
+    left: 91px;
+    transform: rotate(-15deg);
+}
+.scl{
+    background-color: #e63c33;
+    height: 35px;
+    width:120px;
+    position: relative;
+    bottom: 35;
+    right:85;
+    border-radius: 10px;
+    transform: rotate(15deg);
+}
+.sc2{
+    height: 0;
+    width: 20px;
+    border-bottom: 70px solid #e63c33;
+    border-left:8px solid transparent;
+    border-right: 8px solid transparent;
+    position: relative;
+    right:25px;
+    bottom:45px;
+    transform: rotate(0deg);
+ 
+
+}
+.snow{
+    background-color: white;
+    height: 50px;
+    width: 1362px;
+    position: absolute;
+    bottom: -338px;
+    right: 505px;
+    position: relative;
+    
+}
+.snowfall{
+    background-image: url(snow.png);
+    height: 182vh;
+    width: 128vw;
+    background-repeat: repeat;
+    background-size: contain;
+    animation: snow 0.5s linear infinite;
+    position: absolute;
+    left: -452px;
+    bottom: 86px;
+    
+
+
+}
+@keyframes snow{
+    0%{
+        background-position: 0 0;
+    }
+    20%{
+        background-position: 50px 50px;
+    }
+    40%{
+        background-position: 100px 100px;
+    }
+    60%{
+        background-position: 150px 150px;
+    }
+    80%{
+        background-position: 200px 200px;
+    }
+    100%{
+        background-position: 250px 250px;
+    }
+}
